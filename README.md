@@ -1,11 +1,9 @@
 # 🛡️ Property Catastrophe Reinsurance Optimizer
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg)](https://alexanderdecosta-capital-retention-analytics-app-7o0yv5.streamlit.app/)
-
 ### 📊 Overview
 This project is a quantitative decision-support tool designed to evaluate the impact of reinsurance structures on a property insurance portfolio. Using a 10,000-year stochastic simulation, the model analyzes how different "layers" of protection (Attachment and Limit) affect an insurer’s capital volatility and net loss profile.
 
-**🔗 Live Dashboard:** [Reinsurance Risk Optimizer](https://alexanderdecosta-capital-retention-analytics-app-7o0yv5.streamlit.app/)
+**🔗 Live Dashboard:** [Reinsurance Risk Optimizer](https://alexanderdecosta-capital-retention-analytics.streamlit.app/)
 
 ### 💡 Why This Is Useful
 In the Canadian property market, managing "Tail Risk" is essential for both solvency and regulatory compliance (e.g., **OSFI B-9**). This tool provides immediate clarity on:
