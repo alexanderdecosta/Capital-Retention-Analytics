@@ -1,11 +1,11 @@
-# 🛡️ Property Catastrophe Reinsurance Optimizer
+# Property Catastrophe Reinsurance Optimizer
 
-### 📊 Overview
+### Overview
 This project is a quantitative decision-support tool designed to evaluate the impact of reinsurance structures on a property insurance portfolio. Using a 10,000-year stochastic simulation, the model analyzes how different "layers" of protection (Attachment and Limit) affect an insurer’s capital volatility and net loss profile.
 
-**🔗 Live Dashboard:** [Reinsurance Risk Optimizer](https://capital-retention-analytics.streamlit.app)
+** Live Dashboard:** [Reinsurance Risk Optimizer](https://capital-retention-analytics.streamlit.app)
 
-### 💡 Why This Is Useful
+### Why This Is Useful
 In the Canadian property market, managing "Tail Risk" is essential for both solvency and regulatory compliance (e.g., **OSFI B-9**). This tool provides immediate clarity on:
 
 * **Risk Transfer Efficiency:** Visualizing exactly how much catastrophic volatility is moved from the Insurer's balance sheet to the Reinsurer.
@@ -14,7 +14,7 @@ In the Canadian property market, managing "Tail Risk" is essential for both solv
 
 ---
 
-### 🔬 Methodology
+### Methodology
 The model utilizes a **Frequency-Severity** approach to simulate 10,000 potential years of loss activity:
 
 1. **Event Frequency ($N$):** Modeled via a **Poisson Distribution**.
@@ -33,7 +33,7 @@ The model utilizes a **Frequency-Severity** approach to simulate 10,000 potentia
 
 ---
 
-### 🛠️ How to Use the Dashboard
+### How to Use the Dashboard
 The interactive interface allows users to stress-test the portfolio in real-time:
 
 * **Adjust Parameters:** Use the sidebar to change the treaty **Attachment** and **Limit**.
@@ -43,7 +43,7 @@ The interactive interface allows users to stress-test the portfolio in real-time
 
 ---
 
-### 📂 Technical Structure
+### Technical Structure
 * `app.py`: The core simulation engine and Streamlit interface.
 * `requirements.txt`: List of necessary Python libraries (NumPy, Matplotlib, Streamlit).
 * `.gitignore`: Professional configuration to ensure a clean, production-ready repository.
